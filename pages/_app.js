@@ -7,8 +7,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>NewsClone</title>
         <meta name="description" content="Live Hindustan News Front Page Clone" />
-
-        {/* ✅ Your custom logo as favicon */}
         <link rel="icon" type="image/png" href="/logo.png" />
       </Head>
       <Component {...pageProps} />
